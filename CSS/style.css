@@ -92,19 +92,19 @@ p {
   margin: auto;
 }
 .programming {
-  width: 40%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .driving {
-  width: 40%;
+  width: 25%;
   float: right;
   margin-left: 30px;
 }
 
 .eating {
-  width: 40%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
