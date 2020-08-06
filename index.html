@@ -3,56 +3,128 @@
   <head>
     <meta charset="utf-8">
     <title>Vivekananda Reddy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b578f89325.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="top">
       <img class="top-cloud" src="Images/cloud.png" alt="cloud-image">
-      <h1>I'm Vivek.</h1>
-      <h2><span class="sys">System</span> Engineer.</h2>
+      <img class="profile-pic" src="Images/Vivek-circle-cropped.png" alt="Vivek's image">
+      <h2>Hello!</h2>
+      <h1>I'm Vivekananda Reddy.</h1>
+      <h2>Full Stack Developer.</h2>
       <img class="bottom-cloud" src="Images/cloud.png" alt="cloud-image">
       <img src="Images/mountain.png" alt="mountain-image">
     </div>
     <div class="middle">
-      <div class="profile">
-        <img class="profile-pic" src="Images/Vivek-circle-cropped.png" alt="Vivek's image">
-        <h2>Hello!</h2>
-        <p class="profile-para">I am alumni of VIT University. I worked as System Engineer for Infosys Limited. I love programming.</p>
+      <div class="projects">
+        <h2>Projects</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="projects-row">
+              <h3>DigiMart - User and Store manager : </h3>
+              <p>- Built REST API endpoints with Python, Flask and other popular Flask extensions, such that the User can
+                retrieve/add Store information.</p>
+              <p>- Implemented JWT to make the APIs secure. Handled secured User registration and authentication.</p>
+              <p>- Integrated and used SQLite for storing User and Store information.</p>
+              <p>- Deployed the application on Heroku cloud.</p>
+            </div>
+            <div class="projects-row">
+              <h3>Front-End projects : </h3>
+              <p>- Built responsive Front-End web applications using HTML, CSS, Bootstrap, JavaScript.</p>
+              <a href="https://gajju-bhai.github.io/ViSha/" target="_blank">ViSha Dog World :</a>
+              <p>- One-stop online app for dog lovers. Find everything your dog needs.</p>
+              <a href="https://gajju-bhai.github.io/Drum-Kit/" target="_blank">Drum-Kit :</a>
+              <p>- Web based application, which provides good experience of finger drumming. Keys for each drum are
+                set out on the keyboard.</p>
+            </div>
+            <div class="projects-row3">
+              <h3>Generation of Images using the Generative Adversarial Networks (GANs) : </h3>
+              <p>- Aimed to train the neural networks with sample images and generate new images when the sample data was fed.</p>
+              <p>- Designed GANs to generate photo realistic images and trained the Convolutional Neural Networks(CNNs namely,
+                the Generator and the Discriminator) involved in GANs.</p>
+              <p>- Used Python, Intel Xenon Processor of 16 GB RAM with 100 GB SSD CPU, Tesla K80 12 GB Memory GPU.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="experience">
+        <h2>Experience</h2>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 exp-col">
+            <div class="card">
+              <div class="card-header">
+                <h3>Infosys Limited</h3>
+              </div>
+              <div class="card-body">
+                <h6><i>Systems Engineer</i></h6>
+                <h2 class="exp">June 2018 - May 2019</h2>
+                <p>- Worked on Automation testing for mini projects using Selenium tool for web application.</p>
+                <p>- Wrote test cases manually and wrote scripts in Selenium for automating those test cases.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 exp-col">
+            <div class="card">
+              <div class="card-header">
+                <h3>Infosys BPM Limited</h3>
+              </div>
+              <div class="card-body">
+                <h6><i>Systems Engineer</i></h6>
+                <h2 class="exp">June 2019 - Dec 2019</h2>
+                <p>- Worked for the FaithLife Financial project, a distinguished client in Life Insurance domain.</p>
+                <p>- Took responsibility for debugging code issues and daily post-batch activities which include file sharing, darting and report
+                  sharing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <hr>
       <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="programming" src="Images/circle-cropped-computer.png" alt="programmer-image">
-          <h3>Programming</h3>
-          <p>I enjoy learning new technologies. I like programming and I always try to skill-up myself in programming.</p>
+        <h2>My Skills</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="skill-row">
+              <img class="programming-languages" src="Images/circle-cropped-p_langs4.png" alt="programming-languages-image">
+              <h3>Programming Languages</h3>
+              <p>Python, Progress4GL, SQL, Basics in C and Java.</p>
+            </div>
+            <div class="skill-row">
+              <img class="web-technologies" src="Images/circle-cropped-web2.png" alt="web-technologies-image">
+              <h3>Web Technologies</h3>
+              <p>HTML, CSS, Bootstrap, JavaScript, jQuery, DOM, Flask.</p>
+            </div>
+            <div class="skill-row">
+              <img class="databases" src="Images/circle-cropped-db1.png" alt="databases-image">
+              <h3>Databases</h3>
+              <p>MySQL, SQLite, Progress4GL.</p>
+            </div>
+            <div class="skill-row">
+              <img class="testing-tools" src="Images/circle-cropped-t_tools.png" alt="testing-tools-image">
+              <h3>Testing Tools</h3>
+              <p>Selenium, Postman.</p>
+            </div>
+          </div>
         </div>
-        <div class="skill-row">
-          <img class="driving" src="Images/circle-cropped-driving.png" alt="driving-image">
-          <h3>Driving</h3>
-          <p>I love exploring new places and sometimes, I feel that the best therapy for most of the problems is a long drive and music. This exploring has made me a skilled motorist.</p>
-        </div>
-        <div class="skill-row">
-          <img class="eating" src="Images/biryani-circle-cropped.png" alt="eating-image">
-          <h3>Eating</h3>
-          <p>One cannot think well, love well, sleep well, if he/she has not dined well. I always love to have Hyderabadi chicken biryani.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>For any programming or driving assistance:</h3>
-        <p class="contact-message">If you need any assistance in programming or driving, you can get in touch with me. You can just mail me by clicking the below button.</p>
-        <a class="btn" href="mailto:vivekananda0463@gmail.com">CONTACT ME</a>
       </div>
     </div>
     <div class="bottom">
-      <a class="footer-link" href="https://www.facebook.com/vivekananda.reddy.904" target="_blank">Facebook</a>
-      <a class="footer-link" href="https://twitter.com/Vivek_gaju" target="_blank">Twitter</a>
-      <a class="footer-link" href="https://gajju-bhai.github.io/CV/" target="_blank">Website</a>
-      <p class="copyright">© 2020 Vivekananda Reddy Cherukupally.</p>
+      <div class="contact-me">
+        <h3>Please do contact me.</h3>
+        <p class="contact-message">For any Full Stack Development roles.</p>
+        <a class="footer-link" href="https://www.facebook.com/vivekananda.reddy.904" target="_blank"><i class="fab fa-facebook social-icon"></i></a>
+        <a class="footer-link" href="https://twitter.com/Vivek_gaju" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
+        <a class="footer-link" href="https://www.instagram.com/gaju_vivek/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
+        <a class="footer-link" href="mailto:vivekananda0463@gmail.com"><i class="fas fa-envelope social-icon"></i></a>
+      </div>
     </div>
   </body>
 </html>
